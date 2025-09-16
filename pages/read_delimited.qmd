@@ -57,7 +57,7 @@ glass_data
 ```{r}
 yeast_data <- read_fwf("https://www4.stat.ncsu.edu/online/datasets/yeast.data",
                        fwf_widths(c(12, 6, 6, 6, 6, 6, 6, 6, 6, 3),
-                                  col_names = c("seq_name", "mcg", "gvh", "alm", "mit",                                                    "erl", "pox", "vac", "nuc", "class")))
+                                  col_names = c("seq_name", "mcg", "gvh", "alm", "mit", "erl", "pox", "vac", "nuc", "class")))
 yeast_data
 ```
 

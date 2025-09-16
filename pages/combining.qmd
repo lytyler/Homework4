@@ -86,3 +86,4 @@ wine_data <- wine_data |>
   mutate(mean_alcohol = mean(alcohol), sd_alcohol = sd(alcohol))
 wine_data
 ```
+
