@@ -1,5 +1,6 @@
 ---
-title: "Conceptual Questions"
+title: "Task 1: Conceptual Questions"
+author: Lanette Tyler
 format: html
 toc: TRUE
 editor_options: 
@@ -7,4 +8,24 @@ editor_options:
 ---
 
 
-Answers go here!
+1.  If your working directory is myfolder/homework/, what relative path would you specify to get the file located at myfolder/MyData.csv?
+
+    > ../MyData.csv
+
+2.  What are the major benefits of using R projects?
+
+    > The major benefits of using R projects are the working directory, workspace, history, and folder structure and source documents that are all provided through the directory associated with the R project. This keeps everything necessary for the project together and easily shareable for collaboration, as long as file paths are relative.
+
+3.  What is git and what is github?
+
+    > Git is version control software that tracks changes committed to the files and allows multiple users to work on the same project. Github is a hosting service on the internet that allows us to do Git-based projects and share them widely.
+
+4.  What are the two main differences between a tibble and a data.frame?
+
+    > The two main differences between a tibble and a data frame are the specialized format in which tibbles are printed and that tibbles are not coerced to vectors when subsetting a single column using \[ \]. Tibbles are a specialized form of a dataset.
+
+5.  Rewrite the following nested function call using BaseR’s chaining operator:
+
+    arrange(filter(select(as_tibble(iris), starts_with("Petal"), Species), Petal.Length \< 1.55), Species)
+
+> iris \|\> as.data.frame() \|\> select(starts_with("Petal"), Species) \|\> filter(Petal.Length \< 1.55) \|\> arrange(Species)

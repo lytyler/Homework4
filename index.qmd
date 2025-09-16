@@ -1,11 +1,10 @@
 ---
-title: "Homework 4"
+title: "NCSU ST558 Homework 4"
+author: Lanette Tyler
 format: html
 toc: TRUE
 editor_options: 
-  chunk_output_type: inline
+  chunk_output_type: console
 ---
 
-An example pages site with multiple pages and a table of contents.
-
-This could be a landing page for the site. Feel free to put whatever here!
+Welcome to the landing page for Lanette Tyler's Homework 4!
