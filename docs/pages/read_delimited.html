@@ -199,7 +199,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#glass-data" id="toc-glass-data" class="nav-link active" data-scroll-target="#glass-data">Glass Data</a></li>
+  <li><a href="#load-readr-and-dplyr-packages" id="toc-load-readr-and-dplyr-packages" class="nav-link active" data-scroll-target="#load-readr-and-dplyr-packages">Load readr and dplyr packages:</a></li>
+  <li><a href="#glass-data" id="toc-glass-data" class="nav-link" data-scroll-target="#glass-data">Glass Data</a></li>
   <li><a href="#yeast-data" id="toc-yeast-data" class="nav-link" data-scroll-target="#yeast-data">Yeast Data</a></li>
   </ul>
 </nav>
@@ -232,7 +233,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Load readr and dplyr packages:</p>
+<section id="load-readr-and-dplyr-packages" class="level2">
+<h2 class="anchored" data-anchor-id="load-readr-and-dplyr-packages">Load readr and dplyr packages:</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -251,6 +253,7 @@ Attaching package: 'dplyr'</code></pre>
     intersect, setdiff, setequal, union</code></pre>
 </div>
 </div>
+</section>
 <section id="glass-data" class="level2">
 <h2 class="anchored" data-anchor-id="glass-data">Glass Data</h2>
 <ol type="1">
@@ -287,11 +290,8 @@ dbl (11): Id, RI, Na, Mg, Al, Si, K, Ca, Ba, Fe, Type_of_Glass
 </div>
 </div>
 <ol start="2" type="1">
-<li>Start a Chain to Mutate Type_of_Glass column:</li>
-</ol>
-<p><em>If this portion of the code is run independently, then the completed chunk won’t execute properly in the next step. Both steps are included together below.</em></p>
-<ol start="3" type="1">
-<li>Continue Chain to Filter Data:</li>
+<li><p>Start a Chain to Mutate Type_of_Glass column:</p></li>
+<li><p>Continue Chain to Filter Data:</p></li>
 </ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>glass_data <span class="ot">&lt;-</span> glass_data <span class="sc">|&gt;</span></span>
@@ -368,11 +368,8 @@ dbl (8): mcg, gvh, alm, mit, erl, pox, vac, nuc
 </div>
 </div>
 <ol start="2" type="1">
-<li>Start a Chain to Remove Specified Columns:</li>
-</ol>
-<p><em>If this portion of the code is run independently, then the completed chunk won’t execute properly in the next step. Both steps are included together below.</em></p>
-<ol start="3" type="1">
-<li>Continue Chain to Add Specified Columns:</li>
+<li><p>Start a Chain to Remove Specified Columns:</p></li>
+<li><p>Continue Chain to Add Specified Columns:</p></li>
 </ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>yeast_data <span class="ot">&lt;-</span> yeast_data <span class="sc">|&gt;</span></span>

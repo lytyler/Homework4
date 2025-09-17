@@ -4,9 +4,8 @@ author: Lanette Tyler
 format: html
 toc: TRUE
 editor_options: 
-  chunk_output_type: inline
+  chunk_output_type: console
 ---
-
 
 1.  If your working directory is myfolder/homework/, what relative path would you specify to get the file located at myfolder/MyData.csv?
 
@@ -14,7 +13,7 @@ editor_options:
 
 2.  What are the major benefits of using R projects?
 
-    > The major benefits of using R projects are the working directory, workspace, history, and folder structure and source documents that are all provided through the directory associated with the R project. This keeps everything necessary for the project together and easily shareable for collaboration, as long as file paths are relative.
+    > The major benefits of using R projects are to keep an analysis together. Through the R project there is a shared working directory, workspace, history, and folder structure and source documents. This keeps everything necessary for the project together and easily shareable for collaboration, as long as file paths are relative.
 
 3.  What is git and what is github?
 

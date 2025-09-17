@@ -4,16 +4,18 @@ author: Lanette Tyler
 format: html
 toc: TRUE
 editor_options: 
-  chunk_output_type: inline
+  chunk_output_type: console
 ---
 
-Load readxl, dplyr, readr packages:
+## Load readxl, dplyr, readr packages:
 
 ```{r}
 library(readxl)
 library(dplyr)
 library(readr)
 ```
+
+## Read in and manipulate data
 
 1.  Import White Wine Data:
 
@@ -62,6 +64,8 @@ red_wine_data <- red_wine_data |>
   mutate(wine_type = "red")
 red_wine_data
 ```
+
+## Combine data and manipulate further
 
 5. Combine the datasets:
 

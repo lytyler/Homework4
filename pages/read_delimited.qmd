@@ -6,7 +6,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-Load readr and dplyr packages:
+## Load readr and dplyr packages:
 
 ```{r}
 library(readr)
@@ -24,8 +24,6 @@ glass_data
 ```
 
 2.  Start a Chain to Mutate Type_of_Glass column:
-
-*If this portion of the code is run independently, then the completed chunk won't execute properly in the next step. Both steps are included together below.*
 
 3.  Continue Chain to Filter Data:
 
@@ -62,8 +60,6 @@ yeast_data
 ```
 
 2.  Start a Chain to Remove Specified Columns:
-
-*If this portion of the code is run independently, then the completed chunk won't execute properly in the next step. Both steps are included together below.*
 
 3.  Continue Chain to Add Specified Columns:
 

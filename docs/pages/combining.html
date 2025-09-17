@@ -194,8 +194,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#load-readxl-dplyr-readr-packages" id="toc-load-readxl-dplyr-readr-packages" class="nav-link active" data-scroll-target="#load-readxl-dplyr-readr-packages">Load readxl, dplyr, readr packages:</a></li>
+  <li><a href="#read-in-and-manipulate-data" id="toc-read-in-and-manipulate-data" class="nav-link" data-scroll-target="#read-in-and-manipulate-data">Read in and manipulate data</a></li>
+  <li><a href="#combine-data-and-manipulate-further" id="toc-combine-data-and-manipulate-further" class="nav-link" data-scroll-target="#combine-data-and-manipulate-further">Combine data and manipulate further</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -231,7 +239,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Load readxl, dplyr, readr packages:</p>
+<section id="load-readxl-dplyr-readr-packages" class="level2">
+<h2 class="anchored" data-anchor-id="load-readxl-dplyr-readr-packages">Load readxl, dplyr, readr packages:</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -251,6 +260,9 @@ Attaching package: 'dplyr'</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="read-in-and-manipulate-data" class="level2">
+<h2 class="anchored" data-anchor-id="read-in-and-manipulate-data">Read in and manipulate data</h2>
 <ol type="1">
 <li>Import White Wine Data:</li>
 </ol>
@@ -405,6 +417,9 @@ dbl (12): fixed acidity, volatile acidity, citric acid, residual sugar, chlo...
 #   wine_type &lt;chr&gt;</code></pre>
 </div>
 </div>
+</section>
+<section id="combine-data-and-manipulate-further" class="level2">
+<h2 class="anchored" data-anchor-id="combine-data-and-manipulate-further">Combine data and manipulate further</h2>
 <ol start="5" type="1">
 <li>Combine the datasets:</li>
 </ol>
@@ -446,6 +461,7 @@ dbl (12): fixed acidity, volatile acidity, citric acid, residual sugar, chlo...
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

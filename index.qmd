@@ -7,4 +7,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to the landing page for Lanette Tyler's Homework 4!
+Welcome to the landing page for Homework 4!
